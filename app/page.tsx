@@ -8,7 +8,7 @@ const POSTS_QUERY_LONG = defineQuery(`*[
   _type == "post"
   && defined(slug.current)
   && format match "long-format"
-]{_id, title, slug, publishedAt, body}|order(date desc)`);
+]{_id, title, slug, publishedAt, body}|order(publishedAt desc)`);
 
 interface Post {
     _id: string;
