@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
 
-      <div className='flex items-center w-full h-[7vh] px-3 font-handjet bg-primary-2'>
+      <div className='flex items-center w-full h-[9vh] px-5 font-handjet bg-primary-2'>
         <h1 className='text-5xl text-white'>Dev. Blog</h1>
         <h1 className='pl-1 text-xl place-self-end content-end text-t-white'>Heikku J.</h1>
       </div>
@@ -16,7 +16,7 @@ export default function Navbar() {
         </div>
 
         <div className='flex hover:bg-primary-2 w-full justify-center'>
-        <Link href="#" target='_blank'><h2>Portfolio</h2></Link>
+        <Link href="https://heikku.dev/" target='_blank'><h2>Portfolio</h2></Link>
         </div>
       </div>
     </div>
